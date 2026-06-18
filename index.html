@@ -71,10 +71,18 @@
                 </div>
                 
                 <div class="relative aspect-video rounded-2xl overflow-hidden bg-slate-900 shadow-inner group border border-slate-900">
-                    <video id="media-video-1" class="w-full h-full object-cover" controls preload="metadata" poster="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800">
-                        <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
+                    <video id="media-video-1" class="w-full h-full object-cover" controls preload="metadata" onerror="handleVideoError(1)">
+                        <source src="movie1.mp4" type="video/mp4">
+                        <source src="https://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
+                    <div id="fallback-1" class="absolute inset-0 bg-slate-900 flex flex-col items-center justify-center p-6 text-center text-white hidden z-10">
+                        <div class="p-3 bg-slate-800/80 text-amber-400 rounded-full mb-3"><i data-lucide="alert-circle" class="w-6 h-6"></i></div>
+                        <h4 class="font-bold text-sm text-slate-100 mb-1">Local Network Offline Mode Fallback</h4>
+                        <p class="text-[11px] text-slate-400 max-w-sm leading-relaxed">
+                            To view this video locally, place your video asset in the project folder and name it <code class="text-teal-400 font-mono font-bold bg-slate-950 px-1.5 py-0.5 rounded">movie1.mp4</code>.
+                        </p>
+                    </div>
                 </div>
                 
                 <div class="bg-slate-50 rounded-xl p-3.5 border border-slate-100 flex items-start gap-2.5">
@@ -187,10 +195,18 @@
                 </div>
                 
                 <div class="relative aspect-video rounded-2xl overflow-hidden bg-slate-900 shadow-inner border border-slate-900">
-                    <video id="media-video-2" class="w-full h-full object-cover" controls preload="metadata" poster="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=800">
-                        <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4" type="video/mp4">
+                    <video id="media-video-2" class="w-full h-full object-cover" controls preload="metadata" onerror="handleVideoError(2)">
+                        <source src="movie2.mp4" type="video/mp4">
+                        <source src="https://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
+                    <div id="fallback-2" class="absolute inset-0 bg-slate-900 flex flex-col items-center justify-center p-6 text-center text-white hidden z-10">
+                        <div class="p-3 bg-slate-800/80 text-amber-400 rounded-full mb-3"><i data-lucide="alert-circle" class="w-6 h-6"></i></div>
+                        <h4 class="font-bold text-sm text-slate-100 mb-1">Local Network Offline Mode Fallback</h4>
+                        <p class="text-[11px] text-slate-400 max-w-sm leading-relaxed">
+                            To view this video locally, place your video asset in the project folder and name it <code class="text-indigo-400 font-mono font-bold bg-slate-950 px-1.5 py-0.5 rounded">movie2.mp4</code>.
+                        </p>
+                    </div>
                 </div>
                 
                 <div class="bg-indigo-50/50 rounded-xl p-3.5 border border-indigo-100 text-xs text-indigo-950 flex gap-2.5 items-start">
@@ -264,7 +280,7 @@
                             <i data-lucide="alert-triangle" class="text-amber-500 w-4 h-4"></i> Parsing The Pressure Pipeline
                         </h4>
                         <p class="text-xs text-slate-500 leading-relaxed">
-                            Comparing organic daily environments directly against optimized, highly color-corrected profiles and highlight sequences.
+                            Comparing daily organic environments directly against optimized, highly color-corrected profiles and highlight sequences.
                         </p>
                     </div>
                 </div>
@@ -292,10 +308,18 @@
                 </div>
                 
                 <div class="relative aspect-video rounded-2xl overflow-hidden bg-slate-900 shadow-inner border border-slate-900">
-                    <video id="media-video-3" class="w-full h-full object-cover" controls preload="metadata" poster="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=800">
-                        <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4">
+                    <video id="media-video-3" class="w-full h-full object-cover" controls preload="metadata" onerror="handleVideoError(3)">
+                        <source src="movie3.mp4" type="video/mp4">
+                        <source src="https://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
+                    <div id="fallback-3" class="absolute inset-0 bg-slate-900 flex flex-col items-center justify-center p-6 text-center text-white hidden z-10">
+                        <div class="p-3 bg-slate-800/80 text-amber-400 rounded-full mb-3"><i data-lucide="alert-circle" class="w-6 h-6"></i></div>
+                        <h4 class="font-bold text-sm text-slate-100 mb-1">Local Network Offline Mode Fallback</h4>
+                        <p class="text-[11px] text-slate-400 max-w-sm leading-relaxed">
+                            To view this video locally, place your video asset in the project folder and name it <code class="text-purple-400 font-mono font-bold bg-slate-950 px-1.5 py-0.5 rounded">movie3.mp4</code>.
+                        </p>
+                    </div>
                 </div>
                 
                 <div class="bg-white rounded-xl p-3.5 border border-purple-100 text-xs text-purple-950/90 shadow-sm leading-relaxed">
@@ -414,7 +438,7 @@
                     alias: "Alex, Age 13",
                     avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=150&h=150&auto=format&fit=crop",
                     growthImg: "https://images.unsplash.com/photo-1544698310-74ea9d1c8258?q=80&w=600&auto=format&fit=crop",
-                    issue: "Virtual activity arrays were encroaching upon educational runtime blocks, creating chronic morning system fatigue levels.",
+                    issue: "Virtual activity arrays were skyrocketing into late-night school blocks, creating chronic morning fatigue levels.",
                     before: "4.5 hours of continuous daily interface activity. High fatigue indexes logged.",
                     after: "1.5 hours maximum. Substituted virtual matching for offline sports club networks.",
                     quote: "Deploying automated interface threshold limits was structurally complex initially, but system morning clarity scales rose significantly!"
@@ -430,6 +454,14 @@
                 }
             ]
         };
+
+        // Network error intercept engine for local video file overrides
+        function handleVideoError(id) {
+            const fallbackOverlay = document.getElementById(`fallback-${id}`);
+            if (fallbackOverlay) {
+                fallbackOverlay.classList.remove('hidden');
+            }
+        }
 
         // Render Configuration Interface Controls
         function renderNav() {
