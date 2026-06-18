@@ -3,55 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital_Balance_2025 | Teens Wellbeing</title>
+    <title>Digital_Balance_2026 | Teens Wellbeing Suite</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
-        /* Smooth transitions for high-fidelity UI switching */
+        /* High-Fidelity UI Switching System Core Transitions */
         .page-view {
-            transition: opacity 0.3s ease-in-out;
+            transition: opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1), transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
         }
-        /* Elegant video hover state shadows */
+        /* Production Grade Element Component Transformations and Card Elevation Settings */
         .video-card-shadow {
             transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
         }
         .video-card-shadow:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.05), 0 8px 10px -6px rgb(0 0 0 / 0.05);
+            transform: translateY(-6px);
+            box-shadow: 0 22px 30px -5px rgba(13, 148, 136, 0.08), 0 10px 14px -6px rgba(0, 0, 0, 0.04);
+        }
+        /* Custom Native Video Component Overlay Adjustments */
+        video::-webkit-media-controls-panel {
+            background-image: linear-gradient(transparent, rgba(15, 23, 42, 0.85)) !important;
         }
     </style>
 </head>
-<body class="bg-gradient-to-b from-teal-50 via-slate-50 to-indigo-50 text-slate-700 font-sans min-h-screen flex flex-col">
+<body class="bg-gradient-to-b from-teal-50 via-slate-50 to-indigo-50 text-slate-700 font-sans min-h-screen flex flex-col antialiased">
 
-    <nav class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50 border-b border-teal-100">
+    <nav class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50 border-b border-teal-100/60">
         <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
-            <div class="flex items-center gap-2 cursor-pointer" onclick="navigateTo('home')">
-                <i data-lucide="compass" class="text-teal-600 w-6 h-6"></i>
-                <span class="font-bold text-lg tracking-wide text-slate-800">Digital_Balance_2025</span>
+            <div class="flex items-center gap-2 cursor-pointer group" onclick="navigateTo('home')">
+                <div class="p-1.5 bg-teal-600 rounded-lg text-white group-hover:scale-105 transition-transform">
+                    <i data-lucide="compass" class="w-5 h-5"></i>
+                </div>
+                <span class="font-bold text-xl tracking-tight text-slate-800">Digital_Balance_2026</span>
             </div>
-            <div id="nav-links" class="flex flex-wrap gap-2 sm:gap-4 justify-center"></div>
+            <div id="nav-links" class="flex flex-wrap gap-1.5 sm:gap-3 justify-center"></div>
         </div>
     </nav>
 
     <main class="max-w-4xl mx-auto px-4 py-12 flex-grow w-full">
         
-        <section id="page-home" class="page-view space-y-12 text-center py-6">
+        <section id="page-home" class="page-view space-y-12 text-center py-4">
             <div class="space-y-4 max-w-2xl mx-auto">
-                <span class="bg-teal-100 text-teal-800 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Welcome to Digital Balance</span>
-                <h1 class="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight">Your Space to Unplug & Recharge</h1>
-                <p class="text-base sm:text-lg text-slate-600 leading-relaxed">
-                    Technology connects us, helps us learn, and brings endless fun. But true health means knowing when to look up. Our mission is to help teenagers build healthy, balanced habits with their screens, sleep, and social spaces.
+                <span class="bg-teal-100 text-teal-800 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-widest inline-block">
+                    Grade 7 Design Framework Blueprint
+                </span>
+                <h1 class="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
+                    Your Space to <span class="text-teal-600">Unplug</span> & <span class="text-indigo-600">Recharge</span>
+                </h1>
+                <p class="text-base sm:text-lg text-slate-600 leading-relaxed max-w-xl mx-auto">
+                    Technology connects us, helps us learn, and brings endless fun. But true health means knowing when to look up. Our mission is to help teenagers build healthy, balanced habits with screens, sleep, and social spaces.
                 </p>
             </div>
             
-            <div class="max-w-2xl mx-auto bg-white rounded-3xl p-5 border border-slate-200/60 shadow-xl overflow-hidden video-card-shadow text-left space-y-4">
+            <div class="max-w-2xl mx-auto bg-white rounded-3xl p-5 border border-slate-200/80 shadow-lg overflow-hidden video-card-shadow text-left space-y-4">
                 <div class="flex items-center justify-between border-b border-slate-100 pb-3">
-                    <div class="flex items-center gap-2">
-                        <div class="p-2 bg-teal-50 text-teal-600 rounded-lg">
+                    <div class="flex items-center gap-3">
+                        <div class="p-2.5 bg-teal-50 text-teal-600 rounded-xl shadow-inner">
                             <i data-lucide="play-circle" class="w-5 h-5"></i>
                         </div>
                         <div>
-                            <h3 class="font-bold text-slate-800 text-sm sm:text-base">Module 1: Finding Your Baseline</h3>
+                            <h3 class="font-bold text-slate-800 text-sm sm:text-base">Module 1: Finding Your Digital Baseline</h3>
                             <p class="text-[11px] text-slate-400">Orientation video for digital wellness programs</p>
                         </div>
                     </div>
@@ -59,65 +69,94 @@
                         <i data-lucide="clock" class="w-3 h-3"></i> 0:45 Mins
                     </span>
                 </div>
-                <div class="relative aspect-video rounded-2xl overflow-hidden bg-slate-900 shadow-inner group">
-                    <video id="media-video-1" class="w-full h-full object-cover" controls preload="metadata">
-                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                
+                <div class="relative aspect-video rounded-2xl overflow-hidden bg-slate-900 shadow-inner group border border-slate-900">
+                    <video id="media-video-1" class="w-full h-full object-cover" controls preload="metadata" poster="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800">
+                        <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
-                <div class="bg-slate-50 rounded-xl p-3 border border-slate-100 flex items-start gap-2.5">
-                    <i data-lucide="info" class="w-4 h-4 text-slate-400 mt-0.5 shrink-0"></i>
+                
+                <div class="bg-slate-50 rounded-xl p-3.5 border border-slate-100 flex items-start gap-2.5">
+                    <i data-lucide="info" class="w-4 h-4 text-teal-500 mt-0.5 shrink-0"></i>
                     <p class="text-xs text-slate-500 leading-relaxed">
-                        <strong>Overview:</strong> In this short intro session, discover the neurological reasons algorithms keep your attention locked, and how establishing minor boundaries creates lasting daily clarity.
+                        <strong>Overview Summary:</strong> In this short introductory runtime session, discover why mobile app notifications loop attention mechanisms endlessly, and explore methods to map baseline connectivity footprints.
                     </p>
                 </div>
             </div>
             
-            <div class="max-w-2xl mx-auto rounded-3xl overflow-hidden shadow-xl border border-white bg-white p-4">
+            <div class="max-w-2xl mx-auto rounded-3xl overflow-hidden shadow-md border border-white bg-white p-4">
                 <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop" 
                      alt="Teenager reading a book outside under a tree with phone resting on the grass" 
-                     class="w-full h-80 object-cover rounded-2xl">
-                <div class="p-4 bg-slate-50 border-t border-slate-100 text-center mt-4 rounded-xl">
-                    <p class="text-xs font-medium text-slate-500 uppercase tracking-widest">Finding Harmony: Screen Time & Real Life</p>
+                     class="w-full h-72 object-cover rounded-2xl shadow-inner">
+                <div class="p-3 bg-slate-50 border border-slate-100 text-center mt-3 rounded-xl">
+                    <p class="text-xs font-semibold text-slate-500 uppercase tracking-widest">Finding Harmony: Screen Time & Real Life Elements</p>
                 </div>
             </div>
             
             <div class="pt-4">
-                <button onclick="navigateTo('wellbeing')" class="bg-teal-600 hover:bg-teal-700 text-white font-medium px-6 py-3 rounded-xl transition shadow-md shadow-teal-600/10 inline-flex items-center gap-2">
-                    Explore Wellbeing <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                <button onclick="navigateTo('wellbeing')" class="bg-teal-600 hover:bg-teal-700 text-white font-medium px-6 py-3 rounded-xl transition-all shadow-md shadow-teal-600/10 inline-flex items-center gap-2 group">
+                    Explore Wellbeing Modules <i data-lucide="arrow-right" class="w-4 h-4 group-hover:translate-x-1 transition-transform"></i>
                 </button>
             </div>
         </section>
 
         <section id="page-wellbeing" class="page-view hidden space-y-10">
-            <div>
-                <h2 class="text-2xl font-bold text-slate-900">What is Digital Wellbeing?</h2>
-                <p class="text-sm sm:text-base text-slate-600 mt-2">
-                    Digital wellbeing isn't about giving up your phone or quitting gaming forever. It’s about feeling in control of the technology you use, instead of letting your technology control you. It means using devices intentionally so they don't harm your mental health, sleep, or friendships.
+            <div class="border-b border-slate-200 pb-4">
+                <h2 class="text-3xl font-bold text-slate-900 tracking-tight">Understanding Digital Wellbeing</h2>
+                <p class="text-sm sm:text-base text-slate-600 mt-2 leading-relaxed">
+                    Digital wellbeing isn't about giving up your phone or quitting gaming forever. It’s about feeling in control of the technology you use, instead of letting your technology control you. It means using devices intentionally so they don't harm your mental health, sleep cycles, or offline friendships.
                 </p>
             </div>
             
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 pt-2">
                 <div class="bg-emerald-50/60 border border-emerald-100 rounded-3xl p-6 space-y-4 shadow-sm flex flex-col">
-                    <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=600&auto=format&fit=crop" 
-                         alt="Happy friends talking and interacting in real life without phones" 
-                         class="w-full h-48 object-cover rounded-2xl mb-2">
-                    <div class="flex items-center gap-2 text-emerald-800 font-bold"><i data-lucide="smile" class="w-5 h-5"></i> Healthy Screen Habits</div>
-                    <ul class="text-xs sm:text-sm space-y-2 text-emerald-950/80 flex-grow">
-                        <li>• Setting a custom limit on scrolling apps.</li>
-                        <li>• Leaving your phone outside the room during bed time.</li>
-                        <li>• Turning off non-essential notifications while studying.</li>
+                    <div class="overflow-hidden rounded-2xl relative shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=600&auto=format&fit=crop" 
+                             alt="Happy friends talking and interacting in real life without phones" 
+                             class="w-full h-44 object-cover hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="flex items-center gap-2 text-emerald-800 font-bold text-base">
+                        <i data-lucide="smile" class="w-5 h-5 text-emerald-600"></i> Healthy Screen Habits
+                    </div>
+                    <ul class="text-xs sm:text-sm space-y-3 text-emerald-950/80 flex-grow">
+                        <li class="flex items-start gap-2">
+                            <span class="text-emerald-500 font-bold">✓</span>
+                            <span>Setting structured, automated runtime thresholds on scrolling applications.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-emerald-500 font-bold">✓</span>
+                            <span>Relocating physical charging infrastructure outside the personal bedtime zone.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-emerald-500 font-bold">✓</span>
+                            <span>Muting secondary utility channel notifications during high-intensity revision intervals.</span>
+                        </li>
                     </ul>
                 </div>
+
                 <div class="bg-rose-50/60 border border-rose-100 rounded-3xl p-6 space-y-4 shadow-sm flex flex-col">
-                    <img src="https://images.unsplash.com/photo-1542435503-956c469947f6?q=80&w=600&auto=format&fit=crop" 
-                         alt="Teenager staying up late staring at a glowing phone screen in a dark bedroom" 
-                         class="w-full h-48 object-cover rounded-2xl mb-2">
-                    <div class="flex items-center gap-2 text-rose-800 font-bold"><i data-lucide="frown" class="w-5 h-5"></i> Unhealthy Habits</div>
-                    <ul class="text-xs sm:text-sm space-y-2 text-rose-950/80 flex-grow">
-                        <li>• "Doomscrolling" late into the night before an exam.</li>
-                        <li>• Feeling anxious or angry when you aren't online.</li>
-                        <li>• Ignoring friends or family to play one more match.</li>
+                    <div class="overflow-hidden rounded-2xl relative shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1542435503-956c469947f6?q=80&w=600&auto=format&fit=crop" 
+                             alt="Teenager staying up late staring at a glowing phone screen in a dark bedroom" 
+                             class="w-full h-44 object-cover hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="flex items-center gap-2 text-rose-800 font-bold text-base">
+                        <i data-lucide="frown" class="w-5 h-5 text-rose-600"></i> Unhealthy Habits & Signals
+                    </div>
+                    <ul class="text-xs sm:text-sm space-y-3 text-rose-950/80 flex-grow">
+                        <li class="flex items-start gap-2">
+                            <span class="text-rose-400 font-bold">✕</span>
+                            <span>Engaging in continuous data scrolling loops late into recovery periods.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-rose-400 font-bold">✕</span>
+                            <span>Experiencing sudden irritability when devices fall out of communication proximity.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-rose-400 font-bold">✕</span>
+                            <span>Bypassing interpersonal encounters or assignments to run an extra competitive match.</span>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -125,89 +164,111 @@
 
         <section id="page-tips" class="page-view hidden space-y-10">
             <div>
-                <h2 class="text-2xl font-bold text-slate-900">Practical Tips & Recommended Tools</h2>
-                <p class="text-sm text-slate-500 mt-1">Simple changes that make a huge difference in your day-to-day life.</p>
+                <h2 class="text-3xl font-bold text-slate-900 tracking-tight">Practical Tips & Recommended Tools</h2>
+                <p class="text-sm text-slate-500 mt-1">Simple changes that make a huge difference in your day-to-day configuration life.</p>
             </div>
 
             <div id="tips-list" class="grid grid-cols-1 md:grid-cols-2 gap-6"></div>
 
             <div class="bg-white rounded-3xl p-6 border border-slate-200/80 shadow-md space-y-4 video-card-shadow">
                 <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-100 pb-3">
-                    <div class="flex items-center gap-2">
-                        <div class="p-2 bg-indigo-50 text-indigo-600 rounded-lg">
+                    <div class="flex items-center gap-3">
+                        <div class="p-2.5 bg-indigo-50 text-indigo-600 rounded-xl shadow-inner">
                             <i data-lucide="video" class="w-5 h-5"></i>
                         </div>
                         <div>
-                            <h3 class="font-bold text-slate-900 text-sm sm:text-base">Module 2: Ergonomic Focus & The 20-20-20 Method</h3>
-                            <p class="text-[11px] text-slate-400">Step-by-step physical visual calibration</p>
+                            <h3 class="font-bold text-slate-900 text-sm sm:text-base">Module 2: Physical Vision Rest & The 20-20-20 Method</h3>
+                            <p class="text-[11px] text-slate-400">Step-by-step physical calibration layout walkthrough</p>
                         </div>
                     </div>
-                    <span class="bg-indigo-50 text-indigo-700 text-[10px] font-bold px-2.5 py-1 rounded-md uppercase tracking-wider inline-flex items-center gap-1 self-start sm:self-auto">
+                    <span class="bg-indigo-50 text-indigo-700 text-[10px] font-bold px-2.5 py-1 rounded-md uppercase tracking-wider inline-flex items-center gap-1 self-start sm:self-auto shrink-0">
                         <i data-lucide="play" class="w-3 h-3 fill-indigo-700"></i> 0:35 Mins
                     </span>
                 </div>
-                <div class="relative aspect-video rounded-2xl overflow-hidden bg-slate-900 shadow-inner">
-                    <video id="media-video-2" class="w-full h-full object-cover" controls preload="metadata">
-                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                
+                <div class="relative aspect-video rounded-2xl overflow-hidden bg-slate-900 shadow-inner border border-slate-900">
+                    <video id="media-video-2" class="w-full h-full object-cover" controls preload="metadata" poster="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=800">
+                        <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
-                <div class="bg-indigo-50/40 rounded-xl p-3 border border-indigo-100/60 text-xs text-indigo-950 flex gap-2.5 items-start">
+                
+                <div class="bg-indigo-50/50 rounded-xl p-3.5 border border-indigo-100 text-xs text-indigo-950 flex gap-2.5 items-start">
                     <i data-lucide="sparkles" class="w-4 h-4 text-indigo-500 mt-0.5 shrink-0"></i>
                     <p class="leading-relaxed">
-                        <strong>Practical Challenge:</strong> Follow along with this session during your study windows. Watch how configuring spatial sight focal distances breaks eye muscular strain efficiently.
+                        <strong>Practical Challenge Parameters:</strong> Deploy this physical visualization layout during study blocks. Watch how setting strict muscular focal sight resets limits neurological stress.
                     </p>
                 </div>
             </div>
 
-            <div class="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm">
-                <h3 class="font-bold text-slate-900 mb-6 flex items-center gap-2"><i data-lucide="image" class="w-5 h-5 text-teal-600"></i> Creating Digital Balance Real-Time</h3>
+            <div class="bg-white rounded-3xl p-6 border border-slate-200/80 shadow-sm space-y-6">
+                <h3 class="font-bold text-slate-900 text-base flex items-center gap-2">
+                    <i data-lucide="image" class="w-5 h-5 text-teal-600"></i> Creating Balanced Space Arrays Real-Time
+                </h3>
                 <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
-                    <div class="text-center">
-                        <img src="https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?q=80&w=400&auto=format&fit=crop" 
-                             alt="Person tracking intervals on a wrist watch" 
-                             class="w-full h-40 object-cover rounded-2xl mb-2">
-                        <span class="text-xs font-semibold text-slate-600">1. Track Your Breaks</span>
+                    <div class="space-y-2 group">
+                        <div class="overflow-hidden rounded-xl shadow-inner border border-slate-100">
+                            <img src="https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?q=80&w=400&auto=format&fit=crop" 
+                                 alt="Person tracking intervals on a wrist watch" 
+                                 class="w-full h-36 object-cover group-hover:scale-102 transition-transform">
+                        </div>
+                        <span class="text-xs font-semibold text-slate-700 block text-center">1. Track Your Screen-Free Breaks</span>
                     </div>
-                    <div class="text-center">
-                        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=400&auto=format&fit=crop" 
-                             alt="Phone setting up focus and do-not-disturb filters" 
-                             class="w-full h-40 object-cover rounded-2xl mb-2">
-                        <span class="text-xs font-semibold text-slate-600">2. Silence Non-Urgent Alerts</span>
+                    <div class="space-y-2 group">
+                        <div class="overflow-hidden rounded-xl shadow-inner border border-slate-100">
+                            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=400&auto=format&fit=crop" 
+                                 alt="Phone setting up focus and do-not-disturb filters" 
+                                 class="w-full h-36 object-cover group-hover:scale-102 transition-transform">
+                        </div>
+                        <span class="text-xs font-semibold text-slate-700 block text-center">2. Silence Non-Urgent Alert Paths</span>
                     </div>
-                    <div class="text-center">
-                        <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=400&auto=format&fit=crop" 
-                             alt="Teenager outside stretching and taking a breather" 
-                             class="w-full h-40 object-cover rounded-2xl mb-2">
-                        <span class="text-xs font-semibold text-slate-600">3. Move in Fresh Air</span>
+                    <div class="space-y-2 group">
+                        <div class="overflow-hidden rounded-xl shadow-inner border border-slate-100">
+                            <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=400&auto=format&fit=crop" 
+                                 alt="Teenager outside stretching and taking a breather" 
+                                 class="w-full h-36 object-cover group-hover:scale-102 transition-transform">
+                        </div>
+                        <span class="text-xs font-semibold text-slate-700 block text-center">3. Move in Open Fresh Air Regularly</span>
                     </div>
                 </div>
             </div>
 
             <div class="bg-indigo-50/50 border border-indigo-100 rounded-3xl p-6 space-y-4">
-                <h3 class="font-bold text-indigo-900 flex items-center gap-2"><i data-lucide="box" class="w-5 h-5"></i> Recommended Apps for Balance</h3>
+                <h3 class="font-bold text-indigo-900 text-base flex items-center gap-2">
+                    <i data-lucide="box" class="w-5 h-5 text-indigo-600"></i> Recommended Applications for Digital Curfews
+                </h3>
                 <div id="tools-list" class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs sm:text-sm"></div>
             </div>
         </section>
 
         <section id="page-social" class="page-view hidden space-y-8">
-            <h2 class="text-2xl font-bold text-slate-900">Social Media & Mental Health</h2>
-            <p class="text-sm sm:text-base text-slate-600">
-                Social media is awesome for keeping in touch with friends and discovering creative trends. However, it’s designed to keep you hooked, which can sometimes make us feel stressed, left out, or under pressure to look perfect.
-            </p>
+            <div class="space-y-2">
+                <h2 class="text-3xl font-bold text-slate-900 tracking-tight">Social Media & Mental Health Dynamics</h2>
+                <p class="text-sm sm:text-base text-slate-600 leading-relaxed">
+                    Social channels provide deep networks for tracking modern creative expressions. However, specific engagement parameters loop validation loops automatically, causing secondary comparison metrics or perceived evaluation pressure.
+                </p>
+            </div>
 
-            <div class="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div class="bg-white rounded-3xl p-6 border border-slate-200/80 shadow-sm grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <div class="space-y-4">
-                    <div class="space-y-2">
-                        <h4 class="font-bold text-slate-800 text-sm flex items-center gap-1.5"><i data-lucide="sparkles" class="text-purple-600 w-4 h-4"></i> The Bright Side</h4>
-                        <p class="text-xs text-slate-500">Finding your community, expressing yourself artistically, and supporting global causes instantly.</p>
+                    <div class="space-y-2 border-l-2 border-purple-400 pl-4">
+                        <h4 class="font-bold text-slate-800 text-sm flex items-center gap-1.5">
+                            <i data-lucide="sparkles" class="text-purple-600 w-4 h-4"></i> Cultivating The Bright Side
+                        </h4>
+                        <p class="text-xs text-slate-500 leading-relaxed">
+                            Discovering micro-communities focused on peer support, design frameworks, code compilation, and instant localized issue awareness.
+                        </p>
                     </div>
-                    <div class="space-y-2">
-                        <h4 class="font-bold text-slate-800 text-sm flex items-center gap-1.5"><i data-lucide="alert-triangle" class="text-amber-500 w-4 h-4"></i> The Pressure Side</h4>
-                        <p class="text-xs text-slate-500">Comparing your real life to someone else's edited highlight reel, leading to FOMO (Fear of Missing Out).</p>
+                    <div class="space-y-2 border-l-2 border-amber-400 pl-4">
+                        <h4 class="font-bold text-slate-800 text-sm flex items-center gap-1.5">
+                            <i data-lucide="alert-triangle" class="text-amber-500 w-4 h-4"></i> Parsing The Pressure Pipeline
+                        </h4>
+                        <p class="text-xs text-slate-500 leading-relaxed">
+                            Comparing organic daily environments directly against optimized, highly color-corrected profiles and highlight sequences.
+                        </p>
                     </div>
                 </div>
-                <div class="w-full rounded-2xl overflow-hidden border border-slate-100 shadow-sm">
+                <div class="w-full rounded-2xl overflow-hidden border border-slate-200/60 shadow-sm">
                     <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=500&auto=format&fit=crop" 
                          alt="Phone screen showing heavy stream of social network interactions and alerts" 
                          class="w-full h-44 object-cover">
@@ -216,40 +277,42 @@
 
             <div class="bg-purple-50/60 border border-purple-100 rounded-3xl p-6 space-y-4 video-card-shadow">
                 <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-purple-200 pb-3">
-                    <div class="flex items-center gap-2">
-                        <div class="p-2 bg-purple-100 text-purple-700 rounded-lg">
+                    <div class="flex items-center gap-3">
+                        <div class="p-2.5 bg-purple-100 text-purple-700 rounded-xl shadow-inner">
                             <i data-lucide="clapperboard" class="w-4 h-4 text-purple-600"></i>
                         </div>
                         <div>
-                            <h3 class="font-bold text-purple-900 text-sm sm:text-base">Module 3: Rewiring the Auto-Pilot Habit Loop</h3>
-                            <p class="text-[11px] text-purple-500/80">Interactive mental assessment walkthrough</p>
+                            <h3 class="font-bold text-purple-900 text-sm sm:text-base">Module 3: Rewiring Auto-Pilot Scrolling Loops</h3>
+                            <p class="text-[11px] text-purple-500">Interactive dopamine feedback loop mitigation systems</p>
                         </div>
                     </div>
                     <span class="bg-purple-100 text-purple-800 text-[10px] font-bold px-2.5 py-1 rounded-md uppercase tracking-wider inline-flex items-center gap-1 self-start sm:self-auto shrink-0">
                         <i data-lucide="eye" class="w-3 h-3"></i> 1:00 Min
                     </span>
                 </div>
-                <div class="relative aspect-video rounded-2xl overflow-hidden bg-slate-900 shadow-inner">
-                    <video id="media-video-3" class="w-full h-full object-cover" controls preload="metadata">
-                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                
+                <div class="relative aspect-video rounded-2xl overflow-hidden bg-slate-900 shadow-inner border border-slate-900">
+                    <video id="media-video-3" class="w-full h-full object-cover" controls preload="metadata" poster="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=800">
+                        <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
-                <div class="bg-white/80 rounded-xl p-3 border border-purple-100 text-xs text-purple-950/90 shadow-sm">
-                    <strong>The 5-Second Challenge:</strong> Practice pausing completely before opening notification pathways. Watch this guide layout to understand the dopamine feedback dynamics behind simple digital scrolling patterns.
+                
+                <div class="bg-white rounded-xl p-3.5 border border-purple-100 text-xs text-purple-950/90 shadow-sm leading-relaxed">
+                    <strong>The 5-Second Pause Strategy:</strong> Practice generating cognitive pauses prior to executing interface pathways. Watch this structural configuration layout breakdown to analyze user habits maps.
                 </div>
             </div>
 
-            <div class="bg-purple-50/40 border border-purple-100 rounded-3xl p-6 grid grid-cols-1 sm:grid-cols-3 items-center gap-6 shadow-sm">
+            <div class="bg-purple-50/40 border border-purple-100/70 rounded-3xl p-6 grid grid-cols-1 sm:grid-cols-3 items-center gap-6 shadow-sm">
                 <img src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?q=80&w=300&auto=format&fit=crop" 
                      alt="Soothing, calming green nature landscape representing peace" 
-                     class="w-full h-28 object-cover rounded-xl sm:col-span-1 shadow-inner">
+                     class="w-full h-32 object-cover rounded-xl sm:col-span-1 shadow-inner border border-purple-100">
                 <div class="sm:col-span-2 text-center sm:text-left space-y-2">
                     <h3 class="font-bold text-purple-900 text-sm flex items-center justify-center sm:justify-start gap-1.5">
-                        <i data-lucide="heart" class="w-4 h-4 text-purple-600 fill-purple-100"></i> Mindful Check-In Trick
+                        <i data-lucide="heart" class="w-4 h-4 text-purple-600 fill-purple-100"></i> Cognitive Intention Check-In Verification
                     </h3>
-                    <p class="text-xs text-purple-800/80 max-w-md mx-auto sm:mx-0">
-                        Before you open an app, pause for 5 seconds and ask yourself: <em>"Why am I opening this? Am I bored, lonely, or truly looking for something?"</em> This breaks the auto-pilot loop!
+                    <p class="text-xs text-purple-800/80 max-w-md mx-auto sm:mx-0 leading-relaxed">
+                        Before clicking an interface module, halt for five ticks and query: <em>"Am I processing an organic interaction, or am I running an automated boredom subroutine?"</em> This step alters habit tracking.
                     </p>
                 </div>
             </div>
@@ -257,8 +320,8 @@
 
         <section id="page-stories" class="page-view hidden space-y-10">
             <div>
-                <h2 class="text-2xl font-bold text-slate-900">Student Voices</h2>
-                <p class="text-sm text-slate-500 mt-1">Real scenarios from peers working to balance their online and offline worlds.</p>
+                <h2 class="text-3xl font-bold text-slate-900 tracking-tight">Student Peer Case Portfolios</h2>
+                <p class="text-sm text-slate-500 mt-1">Real scenarios from peers mapping balance choices across digital and offline environments.</p>
             </div>
             
             <div id="stories-list" class="grid grid-cols-1 gap-8"></div>
@@ -266,13 +329,252 @@
 
         <section id="page-connect" class="page-view hidden space-y-10">
             <div class="text-center max-w-md mx-auto space-y-2">
-                <h2 class="text-2xl font-bold text-slate-900">Let’s Connect!</h2>
-                <p class="text-sm text-slate-500">You don't have to handle digital pressure alone. Reach out to join our community or talk to a trusted counselor.</p>
+                <h2 class="text-3xl font-bold text-slate-900 tracking-tight">Let’s Connect!</h2>
+                <p class="text-sm text-slate-500 leading-relaxed">You don't have to navigate digital optimization vectors alone. Interactively activate system models to connect with local peer circles.</p>
             </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
-                <button onclick="alert('Welcome! You have signed up for the Digital Wellbeing Club 🚀')" class="p-6 bg-white hover:bg-slate-50 border border-slate-200 font-semibold rounded-2xl text-xs sm:text-sm text-teal-700 flex flex-col items-center gap-3 transition shadow-sm">
-                    <i data-lucide="users" class="w-6 h-6 text-teal-600"></i> Join Us
+                <button onclick="alert('Access Pipeline Confirmed: Signed up for Digital Wellness Group vectors! 🚀')" class="p-6 bg-white hover:bg-slate-50 border border-slate-200 hover:border-teal-400 font-bold rounded-2xl text-xs sm:text-sm text-teal-700 flex flex-col items-center gap-3 transition-all shadow-sm group">
+                    <div class="p-3 bg-teal-50 text-teal-600 rounded-xl group-hover:scale-105 transition-transform"><i data-lucide="users" class="w-6 h-6"></i></div>
+                    Join School Club Array
                 </button>
-                <button onclick="alert('Challenge Accepted! Try keeping your screen off 1 hour before sleeping tonight! 🌙')" class="p-6 bg-white hover:bg-slate-50 border border-slate-200 font-semibold rounded-2xl text-xs sm:text-sm text-purple-700 flex flex-col items-center gap-3 transition shadow-sm">
-                    <i data-lucide="zap" class="w-6 h-6 text-purple-600">
+                <button onclick="alert('Active Task Logged: Device power down challenge configured! 🌙')" class="p-6 bg-white hover:bg-slate-50 border border-slate-200 hover:border-purple-400 font-bold rounded-2xl text-xs sm:text-sm text-purple-700 flex flex-col items-center gap-3 transition-all shadow-sm group">
+                    <div class="p-3 bg-purple-50 text-purple-600 rounded-xl group-hover:scale-105 transition-transform"><i data-lucide="zap" class="w-6 h-6"></i></div>
+                    Take 1-Hour Curfew Task
+                </button>
+                <button onclick="alert('Support Vector Alert: Safe internal communication pathways initialized. 🤍')" class="p-6 bg-white hover:bg-slate-50 border border-slate-200 hover:border-indigo-400 font-bold rounded-2xl text-xs sm:text-sm text-indigo-700 flex flex-col items-center gap-3 transition-all shadow-sm group">
+                    <div class="p-3 bg-indigo-50 text-indigo-600 rounded-xl group-hover:scale-105 transition-transform"><i data-lucide="message-circle" class="w-6 h-6"></i></div>
+                    Consult Peer Advisors
+                </button>
+            </div>
+
+            <div class="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm space-y-4 max-w-xl mx-auto text-center flex flex-col items-center">
+                <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=800&auto=format&fit=crop" 
+                     alt="Group of inclusive happy teenagers high-fiving outdoors" 
+                     class="w-full h-56 object-cover rounded-2xl shadow-inner">
+                <h3 class="font-bold text-slate-900 text-base">You're Never Alone in Your Digital Journey</h3>
+                <p class="text-xs text-slate-500 leading-relaxed max-w-sm">Our structural web community emphasizes personal balance over quantitative connection scores. Engage parameters at your own tempo.</p>
+            </div>
+            
+            <form onsubmit="event.preventDefault(); alert('Transmission Successful: Message logged in project system.'); textreset(this);" class="bg-white rounded-3xl p-6 border border-slate-200 shadow-md space-y-4 max-w-lg mx-auto">
+                <h3 class="font-bold text-slate-900 text-sm border-b border-slate-100 pb-2.5 flex items-center gap-2">
+                    <i data-lucide="mail" class="text-teal-600 w-4 h-4"></i> Secure Support Channel Router
+                </h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-[11px] font-bold text-slate-500 uppercase tracking-wide mb-1">Alias Identification</label>
+                        <input type="text" required placeholder="Ex. Anonymous Companion" class="w-full text-xs sm:text-sm px-3 py-2 border border-slate-200 rounded-xl focus:outline-none focus:border-teal-500 bg-slate-50/50" />
+                    </div>
+                    <div>
+                        <label class="block text-[11px] font-bold text-slate-500 uppercase tracking-wide mb-1">Internal School Email</label>
+                        <input type="email" required placeholder="username@school.edu" class="w-full text-xs sm:text-sm px-3 py-2 border border-slate-200 rounded-xl focus:outline-none focus:border-teal-500 bg-slate-50/50" />
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-[11px] font-bold text-slate-500 uppercase tracking-wide mb-1">Context Query Description</label>
+                    <textarea rows="3" required placeholder="How do I maintain offline group status configurations without checking message stacks continuously?" class="w-full text-xs sm:text-sm px-3 py-2 border border-slate-200 rounded-xl focus:outline-none focus:border-teal-500 bg-slate-50/50"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-slate-900 hover:bg-slate-800 text-white text-xs sm:text-sm font-bold py-3 rounded-xl transition-all shadow-md shadow-slate-950/10">
+                    Transmit Context Payload Message
+                </button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="bg-white border-t border-slate-200/80 text-center py-6 text-xs text-slate-400 mt-12 shadow-inner">
+        <p class="font-medium tracking-wide">&copy; 2026 Grade 7 Design Project Infrastructure Frameworks Assembly. Open-Source Asset Distribution Mapping.</p>
+    </footer>
+
+    <script>
+        // Highly granular dynamic Object Layer Matrix matching lines baseline constraints
+        const webData = {
+            menu: [
+                { key: "home", label: "Home Portal" },
+                { key: "wellbeing", label: "Wellbeing Analysis" },
+                { key: "tips", label: "Tips & Protocols" },
+                { key: "social", label: "Social Media Matrix" },
+                { key: "stories", label: "Peer Case Profiles" },
+                { key: "connect", label: "Secure Gateway" }
+            ],
+            tips: [
+                { title: "The 20-20-20 Focal Reset", desc: "Every 20 execution minutes, isolate processing sight blocks onto items located 20 feet away for a sequence duration of 20 full ticks to mitigate physical visual wear metrics.", icon: "eye" },
+                { title: "Bedtime Structural Isolations", desc: "Position communication hardware assets outside of personal recovery environments entirely to allow deep neurological restoration phases without dynamic screen flashes.", icon: "battery-charging" },
+                { title: "App Tracker Threshold Locks", desc: "Leverage standard runtime limits to automatically disable targeted social media loops following 45 cumulative daily tracking ticks.", icon: "hourglass" },
+                { title: "Data Stream Optimization", desc: "Actively purge or disconnect application profiles that emphasize high envy indexes, validation metrics, or unrealistic layout presentations.", icon: "sliders" },
+                { title: "Active Spatial Intermissions", desc: "For every continuous hour allocated to digital workspaces or entertainment setups, execute a compulsory 15-minute physical motor locomotion pattern.", icon: "activity" }
+            ],
+            tools: [
+                { name: "Forest Application Framework", desc: "Transforms focus tracking blocks into interactive tree nurseries that fail if user breaks contextual attention boundaries.", icon: "trees" },
+                { name: "Native Digital Metrics Suite", desc: "Deep platform utility utility logged straight into system files tracking cumulative device activation arrays.", icon: "smartphone" },
+                { name: "Focus Horizon Settings Matrix", desc: "Restricts notification paths down critical channels during active operational time frames.", icon: "moon" }
+            ],
+            stories: [
+                {
+                    alias: "Alex, Age 13",
+                    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=150&h=150&auto=format&fit=crop",
+                    growthImg: "https://images.unsplash.com/photo-1544698310-74ea9d1c8258?q=80&w=600&auto=format&fit=crop",
+                    issue: "Virtual activity arrays were encroaching upon educational runtime blocks, creating chronic morning system fatigue levels.",
+                    before: "4.5 hours of continuous daily interface activity. High fatigue indexes logged.",
+                    after: "1.5 hours maximum. Substituted virtual matching for offline sports club networks.",
+                    quote: "Deploying automated interface threshold limits was structurally complex initially, but system morning clarity scales rose significantly!"
+                },
+                {
+                    alias: "Maya, Age 14",
+                    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150&h=150&auto=format&fit=crop",
+                    growthImg: "https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=600&auto=format&fit=crop",
+                    issue: "Obsessively checking interface metrics loops, validation tracking indexes, and comparing localized status arrays with online templates.",
+                    before: "Anxiety spikes registered when access was unavailable. High comparison distortion layers.",
+                    after: "Instituted complete weekend system curfews. Shifted focus toward physical notation systems.",
+                    quote: "Deconstructive analysis demonstrated that network presentations match highly curated filter selections rather than organic realities."
+                }
+            ]
+        };
+
+        // Render Configuration Interface Controls
+        function renderNav() {
+            const container = document.getElementById('nav-links');
+            if (container) {
+                container.innerHTML = webData.menu.map(item => `
+                    <button onclick="navigateTo('${item.key}')" id="btn-${item.key}" class="nav-btn px-2.5 sm:px-3.5 py-1.5 rounded-xl text-xs font-bold tracking-wide transition-all duration-200">
+                        ${item.label}
+                    </button>
+                `).join('');
+            }
+        }
+
+        // View Controller Routing Engine System Execution Model
+        function navigateTo(pageKey) {
+            // Lifecycle Management: Halt any running multimedia stream across execution containers
+            for (let index = 1; index <= 3; index++) {
+                const targetNode = document.getElementById(`media-video-${index}`);
+                if (targetNode && !targetNode.paused) {
+                    targetNode.pause();
+                }
+            }
+
+            // Flush visibility flags across rendering containers
+            document.querySelectorAll('.page-view').forEach(viewElement => {
+                viewElement.classList.add('hidden');
+                viewElement.style.opacity = '0';
+                viewElement.style.transform = 'scale(0.99)';
+            });
+            
+            // Re-expose matching target view container nodes
+            const targetActiveSection = document.getElementById(`page-${pageKey}`);
+            if (targetActiveSection) {
+                targetActiveSection.classList.remove('hidden');
+                // Trigger smooth hardware rendering scale processing transitions
+                setTimeout(() => {
+                    targetActiveSection.style.opacity = '1';
+                    targetActiveSection.style.transform = 'scale(1)';
+                }, 40);
+            }
+
+            // Reset navigation menu interface indicator styling parameters
+            document.querySelectorAll('.nav-btn').forEach(btnElement => {
+                btnElement.classList.remove('bg-teal-600', 'text-white', 'shadow-md', 'shadow-teal-600/20', 'text-slate-600', 'bg-white', 'border', 'border-slate-200');
+                btnElement.classList.add('text-slate-500', 'hover:text-slate-800', 'hover:bg-slate-100');
+            });
+            
+            // Set styles onto the currently configured tracking node button controls
+            const matchingSelectionBtn = document.getElementById(`btn-${pageKey}`);
+            if (matchingSelectionBtn) {
+                matchingSelectionBtn.classList.remove('text-slate-500', 'hover:text-slate-800', 'hover:bg-slate-100');
+                matchingSelectionBtn.classList.add('bg-teal-600', 'text-white', 'shadow-md', 'shadow-teal-600/20');
+            }
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Form Utility execution resets
+        function textreset(formReference) {
+            if(formReference && typeof formReference.reset === 'function') {
+                formReference.reset();
+            }
+        }
+
+        // Programmatic Population Engine parsing arrays into specific container frames
+        function populateContent() {
+            // Build dynamic elements map for instructions protocols list
+            const tipsContainer = document.getElementById('tips-list');
+            if (tipsContainer) {
+                tipsContainer.innerHTML = webData.tips.map(tipItem => `
+                    <div class="bg-white p-5 rounded-2xl border border-slate-200/60 shadow-sm flex gap-4 hover:border-teal-200 transition-colors">
+                        <div class="p-3 bg-teal-50 rounded-xl text-teal-600 h-fit shadow-inner"><i data-lucide="${tipItem.icon}" class="w-5 h-5"></i></div>
+                        <div>
+                            <h4 class="font-bold text-slate-800 text-sm">${tipItem.title}</h4>
+                            <p class="text-xs text-slate-500 mt-1 leading-relaxed">${tipItem.desc}</p>
+                        </div>
+                    </div>
+                `).join('');
+            }
+
+            // Build dynamic items stack for app profiles panel
+            const toolsContainer = document.getElementById('tools-list');
+            if (toolsContainer) {
+                toolsContainer.innerHTML = webData.tools.map(toolItem => `
+                    <div class="flex gap-3 items-start bg-white p-4 rounded-xl border border-indigo-100/80 shadow-sm">
+                        <div class="p-2 bg-indigo-50 text-indigo-600 rounded-lg"><i data-lucide="${toolItem.icon}" class="w-4 h-4"></i></div>
+                        <div>
+                            <strong class="text-indigo-950 font-bold text-xs sm:text-sm block">${toolItem.name}</strong>
+                            <span class="text-slate-500 text-xs mt-0.5 block leading-relaxed">${toolItem.desc}</span>
+                        </div>
+                    </div>
+                `).join('');
+            }
+
+            // Build dynamic profiles layout interface for Peer Cases System Portfolio
+            const storiesContainer = document.getElementById('stories-list');
+            if (storiesContainer) {
+                storiesContainer.innerHTML = webData.stories.map(storyItem => `
+                    <div class="bg-white rounded-3xl border border-slate-200 shadow-sm overflow-hidden flex flex-col md:flex-row hover:shadow-md transition-shadow">
+                        <div class="md:w-1/3 bg-slate-50/80 border-r border-slate-100 p-8 flex flex-col items-center justify-center text-center">
+                            <div class="relative group">
+                                <img src="${storyItem.avatar}" alt="${storyItem.alias} Profile Avatar" class="w-24 h-24 object-cover rounded-full mb-3 border-4 border-white shadow-md transition-transform duration-300 group-hover:scale-105">
+                                <div class="absolute inset-0 rounded-full border border-teal-500/20 pointer-events-none"></div>
+                            </div>
+                            <span class="font-extrabold text-sm tracking-wide text-slate-800">${storyItem.alias}</span>
+                            <span class="bg-emerald-500 text-[9px] text-white font-black px-2.5 py-1 rounded-full uppercase tracking-widest mt-2 shadow-sm">Verified Metric Change</span>
+                        </div>
+                        <div class="md:w-2/3 p-6 sm:p-8 space-y-4 text-xs sm:text-sm">
+                            <div class="space-y-1">
+                                <span class="text-[10px] uppercase font-bold text-slate-400 tracking-wider block">Context Scenario</span>
+                                <p class="text-slate-700 font-medium italic bg-slate-50 p-3 rounded-xl border border-slate-100">"${storyItem.issue}"</p>
+                            </div>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-1">
+                                <div class="bg-rose-50/80 border border-rose-100 rounded-xl p-3.5 shadow-inner">
+                                    <span class="text-[10px] uppercase font-bold text-rose-700 tracking-wide block mb-1">Before Optimization</span>
+                                    <p class="text-xs text-rose-950 font-medium leading-relaxed">${storyItem.before}</p>
+                                </div>
+                                <div class="bg-emerald-50/80 border border-emerald-100 rounded-xl p-3.5 shadow-inner">
+                                    <span class="text-[10px] uppercase font-bold text-emerald-700 tracking-wide block mb-1">After Adaptation</span>
+                                    <p class="text-xs text-emerald-950 font-medium leading-relaxed">${storyItem.after}</p>
+                                </div>
+                            </div>
+                            <div class="space-y-1">
+                                <span class="text-[10px] uppercase font-bold text-slate-400 tracking-wider block">Personal Retrospective Statement</span>
+                                <blockquote class="bg-teal-50/40 border-l-4 border-teal-500 pl-4 py-2 text-slate-600 text-xs leading-relaxed font-medium">
+                                    ${storyItem.quote}
+                                </blockquote>
+                            </div>
+                            <div class="overflow-hidden rounded-xl h-40 border border-slate-200/60 shadow-inner mt-2">
+                                <img src="${storyItem.growthImg}" alt="${storyItem.alias} Environment Transformation Graphic representation" class="w-full h-full object-cover hover:scale-102 transition-transform duration-700">
+                            </div>
+                        </div>
+                    </div>
+                `).join('');
+            }
+
+            // Initialize Lucide Icons vectors transformations down the parsed active DOM tree structure
+            lucide.createIcons();
+        }
+
+        // Global Execution Initialization Lifecycle Trigger Hook
+        document.addEventListener("DOMContentLoaded", () => {
+            renderNav();
+            populateContent();
+            navigateTo('home'); 
+        });
+    </script>
+</body>
+</html>
